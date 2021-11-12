@@ -1,3 +1,5 @@
+// Modificações efetuadas....
+
 public class Pilha {
 
     public Object[] pilha; 
@@ -33,7 +35,7 @@ public class Pilha {
         if (this.pilhaVazia()) {
             return 0;
         }
-        return this.posicaoPilha; 
+        return this.posicaoPilha+1; 
     }
 
     
